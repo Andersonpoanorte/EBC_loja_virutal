@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceura Cakes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="doceura-header">
+        <nav class="navbar navbar-expand-lg navbar-light top-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="logo">
+                    <img src="./img/carousel/MARCA-DAGUA-19.png" alt="logo">
+                    Doceura Cakes
+                </a>
+                <button type="button" class="navbar-toggler " style="background-color: #e5a4a2;" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">      
+            <div id="carousel-doceura" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                   <div class="carousel-item active" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./img/carousel/1.png" alt="">
+                   </div>
+                   <div class="carousel-item active" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./img/carousel/2.png" alt="">
+                   </div>
+                   <div class="carousel-item active" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./img/carousel/3.png" alt="">
+                   </div>
+                </div>
+                <button data-bs-target="#carousel-doceura" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button data-bs-target="#carousel-doceura" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel-doceura" data-bs-slide-to="0"></button>
+                    <button type="button" class="active" data-bs-target="#carousel-doceura" data-bs-slide-to="1"></button>
+                    <button type="button" class="active" data-bs-target="#carousel-doceura" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+    </section>
+
+    <main class="container mt-5">
+
+        <section id="produtos">
+            <h1 class="text-center mb-4">Produtos</h1>
+            <nav class="nav nav-tabs d-flex align-items-center justify-content-between" id="nav-produtos">
+                <button data-bs-toggle="tab" data-bs-target="#bolos-personalizados" class="nav-link active d-block w-25" type="button">
+                    Bolos Personalizados
+                </button>
+                <button data-bs-toggle="tab" data-bs-target="#docinhos" class="nav-link d-block w-25" type="button">
+                    Docinhos
+                </button>
+                <button data-bs-toggle="tab" data-bs-target="#casamento" class="nav-link d-block w-25" type="button">
+                    Doces/Bolos-Casamento
+                </button>
+            </nav>
+            
+            <div class="tab-content">
+                <div class="tab-pane active py-5" id="bolos-personalizados">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/tab4.PNG" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Sereia</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/tab8.PNG" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo flores</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/tab6.PNG" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Ano Novo</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/tab9.PNG" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Natal</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/tab2.PNG" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Vingadores</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/tab1.PNG" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo borboleta</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="tab-pane py-5" id="docinhos">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/Brigadeiros Gourmet - Fotografia de alimentos_produtos.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Brigadeiros Tradicionais</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/Receita de Brigadeiro de Limão + Variações Para Você Conquistar a Todos.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Brigadeiro de Limão</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/Receita de Brigadeiro de Paçoca e Bons Tipos Diferentes Para Você Transformar Sua Cozinha.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Brigadeiro Paçoca</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/Receita_ como fazer brigadeiro de churros.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Brigadeiro Churros</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/Receitas Brigadeiros Gourmet.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Brigadeiro Gourmet</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/Receitas de brigadeiro gourmet.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Brigadeiro</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane py-5" id="casamento">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/200 Bolos decorados para casamento_ inspirações para escolher o seu!.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Casamento</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/30 SUPER Ideias para Festa de Casamento Simples e Barata!.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Casamento</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/50 Bolos de Casamento com Flores para se Inspirar _ Mariée_ Inspiração para Noivas e Casamentos.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Casamento</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/Bolo de casamento boho_ escolha o seu.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Casamento</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/Bolo de casamento boho_ escolha o seu.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Casamento</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 d-flex justify-content-center">
+                            <a href="#contato">
+                                <div class="card d-flex align-items-center p-3">
+                                    <img src="./img/Tab_img/Bolo de casamento marmorizado para festas no campo.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-litle mt-3">Bolo Casamento</h5>
+                                        <a href="#contato" class="text-center">Encomendar</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section> 
+    </main>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="./img/aboutUs_img/DOCEURA-CAKES.jpg" alt="sobre a loja">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+                    <h1 class="display-5 mt-4">Conheça nossa confeitaria</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloremque dolorum illum, nulla eius sequi voluptatibus ex architecto at minus nemo quae aliquam maxime aperiam cupiditate. Mollitia corporis quaerat voluptatum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="my-5">
+        <div class="container">
+            <form id="encomendar" class="d-flex flex-column m-auto">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail:</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone:</label>
+                    <input type="tel" class="form-control" name="tel" id="tel" placeholder="(00) 00000-0000" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="descricao" class="form-label">Descrição:</label>
+                    <textarea class="form-control" name="descricao" id="descricao" rows="5"></textarea>
+                </div>
+                <button class="btn w-100" type="submit">Faça seu pedido</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="d-flex align-items-center flex-column justify-content-center ">
+            <p>Entre agora em contato conosco e deixe a Doceura adoçar sua Vida!</p>
+            <div>      
+                <img src="./img/carousel/MARCA-DAGUA-19.png" alt="">
+            </div>
+            <div>
+                <h3>Doceura Cakes</h3>          
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

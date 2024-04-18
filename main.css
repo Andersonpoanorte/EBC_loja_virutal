@@ -1,0 +1,170 @@
+body {
+    background-color: #e5a4a2;
+}
+
+header {
+    background-color: #610423;
+}
+
+#logo,
+h1 {
+    font-family: 'champagne e limousines';
+    font-weight: 900;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #e5a4a2;
+}
+
+.nav-link {
+    color: #e5a4a2;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e5a4a2;
+}
+
+.navbar .navbar-brand:hover{
+    color: #e5a4a2;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+#produtos h1 {
+    color: #610423;
+}
+
+.nav button {
+    font-family: 'champagne e limousines';
+    font-weight: 400;
+    color: #610423;
+}
+
+.nav-tabs {
+    border-color: pink;
+}
+
+#nav-produtos .active {
+    font-weight: 900;
+    background-color: pink;
+    color: #610423;
+    border-color: pink;
+}
+
+#nav-produtos button:hover {
+    color: #610423;
+    border-color: pink;
+}
+
+
+.card {
+    cursor: pointer;
+    width: 300px;
+    transition: all 400ms;
+    margin-bottom: 30px;
+    background-color: #e5a4a2;
+
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 30px #33333331;
+}
+.card h5 {
+    font-family: 'champagne e limousines';
+    font-weight: 800;    
+}
+
+
+.card a {
+    display: block;
+    color: #610423;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.card img {
+    width: 250px;
+    height: 100% !important;
+}
+
+#sobre {
+    margin: 30px 0;
+    background-color: #610423;
+    padding: 50px;
+    color: #e5a4a2;
+    font-family: 'champagne e limousines';
+}
+
+#sobre img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#sobre p {
+    font-size: 1.3rem;
+}
+
+#encomendar {
+    font-weight: 600;
+    max-width: 600px;
+    width: 100%;
+}
+
+#encomendar button {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #e5a4a2;
+    background-color: #610423;
+}
+
+footer {
+    background-color: #610423;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #e5a4a2;
+    font-family: 'champagne e limousines';
+}
+
+footer p {
+    text-align: center;
+    font-weight: 700;
+}
+
+footer img {
+    margin-bottom: -30px;
+    width: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    #sobre h1 {
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #sobre h1 {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    body {
+        max-width: 550px;
+        width: 550px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   
+    #nav-items {
+        gap: 30px;
+    }
+}
